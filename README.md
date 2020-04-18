@@ -1,6 +1,6 @@
-# parallax-website
+# Basic parallax landing page
 
-### Parallax effect using html/CSS
+### Parallax scrolling effect using html/CSS
 
 ## Source
 https://www.youtube.com/watch?v=JttTcnidSdQ
