@@ -55,22 +55,30 @@ body {
 }
 
 .ptext {
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    position: absolute;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    color: black;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
 }
 
 .ptext .border {
-    background-color: #111;
-    padding: 20px;
-    color: #fff;
+  background-color: #111;
+  padding: 20px;
+  color: #fff;
 }
 
-.ptext .border.trans{
-    background-color: transparent;
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+      background-attachment: scroll;
+  }
 }
